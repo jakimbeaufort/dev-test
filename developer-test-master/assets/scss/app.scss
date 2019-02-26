@@ -1,0 +1,63 @@
+.shop{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shop-item{
+    margin: auto;
+    padding: 30px;
+
+}
+
+.product-image{
+    width: 200px;
+    height: 225px;
+    background-color: gray;
+}
+
+.badge{
+   display: flex;
+    
+}
+
+.badge-item{
+    margin-top: 10px;
+    margin-left: 140px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: white;
+    text-align: center;
+}
+
+.product-swatch{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;    
+}
+
+.swatch{
+    
+    margin: auto;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    background-color: aqua;
+    box-shadow: 0px 2px 2px grey;
+}
+
+.swatch:active{
+    border: 2px solid black;
+}
+
+.product-title{
+    text-align: center;
+}
+
+.product-price{
+    margin-top: -15px !important;
+    margin: auto;
+    text-align: center;
+    color: gray;
+    
+}
